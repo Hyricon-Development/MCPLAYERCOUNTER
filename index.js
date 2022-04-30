@@ -1,6 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS] });
-const config = require("./config.json");
+const yaml = require('js-yaml');
+const fs = require('fs');
+const config = yaml.load(fs.readFileSync('./config.yml'));
+
 client.login(config.token);
 const gd = require("gamedig");
 let timeplayed = {}
