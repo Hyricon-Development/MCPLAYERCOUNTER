@@ -11,26 +11,25 @@ Cd `MCPLAYERCOUNTER`
 <br>
 Install `npm i` or `npm install`
 <br>
-Start `node .` Or `node index.js` 
+Start `node .` or `node index.js` 
 <br>
 
 # => Local Install 
 <br>
 Download The Files
 <br>
-Install `npm i` or `npm install
+Install `npm i` or `npm install`
 <br>
-Start `node .`  `node index.js`
+Start `node .` or `node index.js` 
 <br>
 
 # Edit Your Config 
-```{
-    "token": "Your Bot Token Here",
-    "channel": "Your Channel Id Where U Want To Send",
-    "ip": "Your Server Ip Or Doamin",
-    "port": 25565
-}
+```yaml
+token: ''
+channel: ''
+ip: www.example.com
+port: 25565
 ```
-Edit This In Your Config.json 
+Edit This In Your config.yml
 
 **Pls Do Give A Star For This Project**
