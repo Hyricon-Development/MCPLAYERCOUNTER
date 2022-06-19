@@ -4,31 +4,39 @@
 
 Download The Files 
 # Installation
-# => Vps
-Git Clone `https://github.com/Prajwal433/MCPLAYERCOUNTER.git` 
+# > Vps
+Run these commands for fast installation!
+`git clone https://github.com/Hyricon-Development/MCPLAYERCOUNTER.git` 
 <br>
-Cd `MCPLAYERCOUNTER`
+`cd MCPLAYERCOUNTER`
 <br>
-Install `npm i` or `npm install`
+Install packages using `npm install`
 <br>
-Start `node .` or `node index.js` 
+Start the bot using `node index.js`
+<br>
+If you want to have the bot online 24/7, install pm2 using `npm install -g pm2` and starting it using `pm2 start index.js --name "MC Player Counter"`
+
+# > Local Install 
+ Want to try it out on your PC before using it on your VPS?
+Download The Files from github
+<br>
+Install packages using `npm install`
+<br>
+Start the bot using `node index.js` 
 <br>
 
-# => Local Install 
-Download The Files
-<br>
-Install `npm i` or `npm install`
-<br>
-Start `node .` or `node index.js` 
-<br>
-
-# Edit Your Config 
+# Configuring 
 ```yaml
 token: ''
 channel: ''
 ip: www.example.com
 port: 25565
 ```
-Edit This In Your config.yml
+In the token field, input your discord bot token which you got from the discord dev panel.
+Next, put the channel ID which you want the bot to send updates in. 
+After that, Put your server IP or domain as www.example.com and the port which it is running on as the port. (Defaults to 25565)
 
-**Pls Do Give A Star For This Project**
+**Please give this project a star! It helps us a ton!**
+
+<br>
+##Having issues using this? Join our support server! >>> https://discord.gg/RTWKa2m44w
